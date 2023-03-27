@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+li, a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    background-color: #2f5167;
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    z-index: 999;
+    float: left;
+    text-align: top;
+    font-size: 20px;
+}
+.list li{
+    float: left;
+    padding: 33px 20px;
+}
+.sosialmedia{
+    padding: 25px 20px;
+    font-size: 36px;
+    float: left;
+}
+.banner{
+    text-align: center;
+    background: url(https://lzd-img-global.slatic.net/g/shop/cfa9b85771899ef82873fcca133526d9.jpeg_2200x2200q80.jpg_.webp);
+    padding: 200px 0 100px 0;
+    background-size: cover;
+    color: white;
+}
+.banner h1{
+    font-size: 90px;
+    opacity: 0.7;
+} 
+.banner h2{
+    font-size: 20px;
+    font-weight: normal;
+    opacity: 0.7;
+}
+span{
+    color: #ff4a4a;
+}
+.container{
+    width: 100%;
+}
+.btn-daftar{
+    margin: 20px 0;
+    color: black;
+}
+.btn-daftar p{
+    margin: 10px 0;
+}
+.btn{
+    padding : 12px 24px;
+    border-radius: 4px;
+    display: inline-block;
+    background-color: cyan;
+    color: black;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.content{
+    width: 1170px;
+    margin: 0 auto;
+    size: 50px;
+}
+.gambar{
+    width: 170px;
+    height: 200px;
+}
+.judul-content{
+    font-size: 20px;
+    border-bottom: 2px solid #dee7ec;
+    margin-bottom: 50px;
+    padding-bottom: 15px;    
+}
+.Aplikasi{
+    float: left;
+    margin-right: 40px;
+}
+.Aplikasi p{
+    font-size: 24px;
+    margin-top: 30px;
+}
+.contact{
+    padding-top: 300px;
+}
+input, textarea{
+    border: 1px solid #dee7ec;
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.form p{
+    padding-bottom: 10px;
+}
+.submit{
+    font-size: 15px;
+    color: #889aeb;
+    background-color: #dee7ec;
+}
+footer{
+    background-color: #2f5167;
+    color: #fff;
+    padding: 40px;
+    height: 90px;
+}  
+.footer-sosialmedia{
+    font-size: 32px;
+    float: left;
+}  
+.footer-list{
+    float: right;
+}
+.footer-list li{
+    padding-bottom: 20px;
+}
